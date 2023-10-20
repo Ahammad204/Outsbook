@@ -1,0 +1,16 @@
+#include <Stdio.h>
+
+int main(){
+
+    int D,Q,R,Divisor;
+
+    scanf("%d",&D);
+    scanf("%d",&Q);
+    scanf("%d/n",&R);
+
+    Divisor = (D - R)/Q;
+    printf("%d",Divisor);
+
+
+return 0;
+}
